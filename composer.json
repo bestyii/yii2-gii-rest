@@ -1,0 +1,25 @@
+{
+    "name": "bestyii/yii2-gii-rest",
+    "description": "RESTful generator for gii",
+    "type": "yii2-extension",
+    "keywords": ["yii2","extension","gii","rest","swagger","oas"],
+    "license": "BSD-3-Clause",
+    "authors": [
+        {
+            "name": "ez",
+            "email": "ez@bestyii.com"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "~2.0.0"
+
+    },
+    "require-dev": {
+        "yiisoft/yii2-gii": "~2.0.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "bestyii\\giiRest\\": "src"
+        }
+    }
+}
