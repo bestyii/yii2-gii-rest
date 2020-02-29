@@ -36,10 +36,10 @@ $config['modules']['gii'] = [
 
         'generators' => [ //自定义生成器
             'rest-model' => [ // generator name
-                'class' => 'bestyii\giiRest\model\Generator', // generator class
+                'class' => 'bestyii\giiRest\generators\model\Generator', // generator class
             ],
             'rest-crud' => [ // generator name
-                'class' => 'bestyii\giiRest\crud\Generator', // generator class
+                'class' => 'bestyii\giiRest\generators\crud\Generator', // generator class
             ]
         ],
     ];
