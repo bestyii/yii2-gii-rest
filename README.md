@@ -30,6 +30,7 @@ or add
 -----
 
 在`config/web.php` 配置文件中，`gii`的配置部分增加模版：
+
 ```php
 $config['modules']['gii'] = [
         'class' => 'yii\gii\Module',
@@ -49,6 +50,7 @@ $config['modules']['gii'] = [
 ![alt gii](demo.png "gii")
 
 生成的代码示例：
+
 示例 controller
 ```php
 <?php
