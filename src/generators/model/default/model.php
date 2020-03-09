@@ -23,7 +23,9 @@ use Yii;
 /**
 * @OA\Schema(
 *      schema="<?= $className ?>",
+<?php if (isset($oasSchemas['required'])): ?>
 *      required={<?= rtrim(ltrim(json_encode($oasSchemas['required']),'['),']') ?>},
+<?php endif; ?>
 <?php foreach ($oasSchemas['properties'] as $property): ?>
 <?php if (in_array($property['property'],['created_at','created_by','updated_at','updated_by','deleted_at'])):
 continue;
